@@ -6,8 +6,24 @@
         </title>
         
         <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <script type="text/javascript">
 
+            function enableButton()
+            {
+                if(value == true)
+                {
+
+                    document.getElementById("firstPage_button").disabled = false;
+
+                }
+            }
+        </script>
+    
     </head>
+
+
+
     <body>
         <header>
             <h1>
@@ -30,48 +46,36 @@
                 One day, a mysterious figure approached him in his dungeon, asking
                 for a wish. What was Midas's wish?
                 
-                
+                <br class="big">
                 <input 
                     type="checkbox"
                     name="He asked for more gold"
                     value="false1"
                 >
-                
+
+                <br>
                 <input
                     type="checkbox"
                     name="He asked for more wishes"
                     value="false2"
                 >
 
+                <br>
                 <input
                     type="checkbox"
                     name="He asked that everything he touches turns into gold"
                     value="true"
                 >
 
-
+                <br class="big">
                 <button
                     type="button"
                     disabled="disabled"
+                    id="firstPage_button"
                     onclick="window.location.href = 'pathA.html';">Click here to go to the next section!
-        
                 >
 
-                <script type="text/javascript">
-
-                    function enableButton()
-                        {
-                            if(value == true)
-                            {
-                                
-                            }
-
-                            if(value == false)
-                            {
-
-                            }
-                        }
-                </script>
+                
 
                 
             </p>

@@ -23,3 +23,14 @@ button {
     color: #ffffff;
 }
 
+br.big{    
+    /* makes a big line break */
+
+    display: block;
+    content: "";
+    margin-top: 6em;
+}
+
+label {
+    font-size: 24px;
+}
