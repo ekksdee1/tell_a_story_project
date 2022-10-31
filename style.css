@@ -1,0 +1,25 @@
+body {
+    background-color: #ffebcd;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+
+button {
+    display: inline;
+    margin: 20px auto;
+    background: #1a64d6;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 16px 24px;
+    border-radius: 30px;
+    transition: all 200ms ease;
+    box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+    cursor: pointer;
+    border: 1px solid #1a64d6;
+    font-family: 'Helvetica', Calibri;
+    color: #ffffff;
+}
+
