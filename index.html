@@ -18,14 +18,16 @@
                 var text =
                 document.getElementsByClass("correct_text");
 
+                // if the checkbox is checked, the text display style is changed to block
+                // if the checkbox is not checked, the text display style is the same
                 if(checkbox.checked == true)
                 {
-                    text.style.display = "block";
+                    correct_text.style.display = "block";
                 }
 
                 else 
                 {
-                    text.style.display = "none";
+                    correct_text.style.display = "none";
                 }
 
             }
@@ -38,14 +40,17 @@
                 // finding the text to display if checked
                 var text =
                 document.getElementsByClass("incorrect_text");
+
+                // if the checkbox is checked, the text display style is changed to block
+                // if the checkbox is not checked, the text display style is the same
                 if(checkbox.checked == true)
                 {
-                    text.style.display = "block";
+                    incorrect_text.style.display = "block";
                 }
 
                 else 
                 {
-                    text.style.display = "none";
+                    incorrect_text.style.display = "none";
                 }
             }
         </script>
