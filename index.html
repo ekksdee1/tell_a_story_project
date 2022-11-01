@@ -6,19 +6,6 @@
         </title>
         
         <link rel="stylesheet" type="text/css" href="style.css">
-        
-        <script type="text/javascript">
-
-            function enableButton()
-            {
-                if(value == true)
-                {
-
-                    document.getElementById("firstPage_button").disabled = false;
-
-                }
-            }
-        </script>
     
     </head>
 
@@ -49,34 +36,36 @@
                 <br class="big">
                 <input 
                     type="checkbox"
-                    name="He asked for more gold"
-                    value="false1"
+                    name="checkbox1"
+                    value="false"
                 >
+                <label for="checkbox1">He asked for more gold</label>
 
                 <br>
                 <input
                     type="checkbox"
-                    name="He asked for more wishes"
-                    value="false2"
+                    name="checkbox2"
+                    value="false"
                 >
+                <label for="checkbox2">He asked for more wishes</label>
 
                 <br>
                 <input
                     type="checkbox"
-                    name="He asked that everything he touches turns into gold"
+                    name="checkbox3"
                     value="true"
                 >
+                <label for="checkbox3">He asked that everything he touches turns into gold</label>
 
                 <br class="big">
-                <button
+                <button 
+                    id="submit"
                     type="button"
-                    disabled="disabled"
-                    id="firstPage_button"
-                    onclick="window.location.href = 'pathA.html';">Click here to go to the next section!
-                >
-
+                    onclick="window.location.href = 'pg2.html'">Click here to go to the next page!
+                </button>
+                    
+                    
                 
-
                 
             </p>
         </main>
