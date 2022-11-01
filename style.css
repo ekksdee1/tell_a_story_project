@@ -6,6 +6,10 @@ h1 {
     font-size: 56px;
 }
 
+p {
+    font-size: 24px;
+}
+
 
 button {
     display: inline;
@@ -28,7 +32,7 @@ br.big{
 
     display: block;
     content: "";
-    margin-top: 6em;
+    margin-top: 4em;
 }
 
 label {
