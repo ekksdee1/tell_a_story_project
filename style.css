@@ -12,6 +12,13 @@ p {
     font-family: 'Helvetica', Calibri;
 }
 
+footer p {
+    font-size: 14px;
+    opacity: 79%;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    float: right;
+}
+
 
 button {
     display: inline;
