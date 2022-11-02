@@ -4,10 +4,12 @@ body {
 
 h1 {
     font-size: 56px;
+    font-family: 'Helvetica', Calibri;
 }
 
 p {
-    font-size: 24px;
+    font-size: 32px;
+    font-family: 'Helvetica', Calibri;
 }
 
 
@@ -37,4 +39,5 @@ br.big{
 
 label {
     font-size: 24px;
+    font-family: 'Helvetica', Calibri;
 }
