@@ -19,6 +19,12 @@ footer p {
     float: right;
 }
 
+p.answer:hover {
+    background-color: #fadeb4;
+    font-size: 32px;
+    font-family: 'Helvetica', Calibri;
+}
+
 
 button {
     display: inline;
